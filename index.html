@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DigiBank – Digital Banking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+
+  <header class="site-header">
+    <div class="container header-flex">
+      <a href="#" class="logo">
+        <img src="./digibank-logo-for-header.png" alt="DigiBank logo">
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn btn-primary">Open Account</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-flex">
+        <div class="hero-content animate-in">
+          <div class="hero-badge">✦ Trusted by 2M+ customers</div>
+          <h1>New Era of<br><span class="gradient-text">Digital Banking</span></h1>
+          <p>
+            DigiBank gives you instant access to your money with digital cards,
+            24/7 secure banking, and seamless online payments — all in one place.
+          </p>
+          <div class="button-group">
+            <button class="btn btn-primary">Get Started Free</button>
+            <button class="btn btn-ghost">
+              <span class="play-icon">▶</span> Watch Demo
+            </button>
+          </div>
+          <div class="trust-bar">
+            <div class="trust-item">
+              <span class="trust-num">256-bit</span>
+              <span class="trust-label">Encryption</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <span class="trust-num">$250K</span>
+              <span class="trust-label">FDIC Insured</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <span class="trust-num">24/7</span>
+              <span class="trust-label">Support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image animate-in-delayed">
+          <div class="image-glow"></div>
+          <img src="./mockup-image-for-hero.png" alt="DigiBank card">
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats-strip">
+          <div class="stat">
+            <span class="stat-num">2M+</span>
+            <span class="stat-label">Active Users</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">150+</span>
+            <span class="stat-label">Countries</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">$8B+</span>
+            <span class="stat-label">Processed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4.9★</span>
+            <span class="stat-label">App Rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Why DigiBank</span>
+          <h2 class="section-title">Banking Built for the Future</h2>
+          <p class="section-subtitle">Everything you need to manage your money, all in one elegant platform.</p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20"/></svg>
+            </div>
+            <h3>Instant Digital Card</h3>
+            <p>Get your digital bank card the moment you sign up. Use it for online purchases immediately — no waiting, no delays.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </article>
+
+          <article class="feature-card feature-card-accent">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L3 7v5c0 5 3.75 9.5 9 10.5C17.25 21.5 21 17 21 12V7l-9-5z"/></svg>
+            </div>
+            <h3>Military-Grade Security</h3>
+            <p>Your money is protected with 256-bit encryption, biometric authentication, and real-time fraud monitoring.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+            </div>
+            <h3>Access Anywhere</h3>
+            <p>Manage your finances from any device, at any time. Native apps for iOS and Android, plus a powerful web dashboard.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <h3>Zero Hidden Fees</h3>
+            <p>Transparent pricing with no surprise charges. What you see is what you pay — nothing more.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>Smart Analytics</h3>
+            <p>Beautiful charts and AI-powered insights help you understand your spending and reach your financial goals faster.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3>Instant Transfers</h3>
+            <p>Send money to friends and family in seconds. Supports P2P payments to any bank, anywhere in the world.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Simple Pricing</span>
+          <h2 class="section-title">Choose Your Plan</h2>
+          <p class="section-subtitle">Start free, upgrade when you're ready. Cancel anytime.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <div class="plan-label">Basic</div>
+            <div class="price-block">
+              <span class="price-currency">$</span>
+              <span class="price">0</span>
+              <span class="price-period">/ month</span>
+            </div>
+            <p class="plan-desc">Everything you need to get started with digital banking.</p>
+            <ul>
+              <li><span class="check">✓</span> Free digital card</li>
+              <li><span class="check">✓</span> Online payments</li>
+              <li><span class="check">✓</span> Mobile app access</li>
+              <li><span class="check">✓</span> Basic analytics</li>
+            </ul>
+            <button class="btn btn-outline-light">Get Started Free</button>
+          </article>
+
+          <article class="pricing-card pricing-card-featured">
+            <div class="featured-badge">Most Popular</div>
+            <div class="plan-label">Premium</div>
+            <div class="price-block">
+              <span class="price-currency">$</span>
+              <span class="price">15</span>
+              <span class="price-period">/ month</span>
+            </div>
+            <p class="plan-desc">For power users who want more flexibility and higher limits.</p>
+            <ul>
+              <li><span class="check">✓</span> Everything in Basic</li>
+              <li><span class="check">✓</span> Multiple virtual cards</li>
+              <li><span class="check">✓</span> Higher limits</li>
+              <li><span class="check">✓</span> Priority support</li>
+            </ul>
+            <button class="btn btn-primary">Choose Premium</button>
+          </article>
+
+          <article class="pricing-card">
+            <div class="plan-label">Ultra</div>
+            <div class="price-block">
+              <span class="price-currency">$</span>
+              <span class="price">25</span>
+              <span class="price-period">/ month</span>
+            </div>
+            <p class="plan-desc">The ultimate banking experience for global travelers and professionals.</p>
+            <ul>
+              <li><span class="check">✓</span> Everything in Premium</li>
+              <li><span class="check">✓</span> Unlimited cards</li>
+              <li><span class="check">✓</span> No international fees</li>
+              <li><span class="check">✓</span> Dedicated manager</li>
+            </ul>
+            <button class="btn btn-outline-light">Choose Ultra</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked</h2>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-icon">?</div>
+            <div>
+              <h3>Is DigiBank a real bank?</h3>
+              <p>Yes. DigiBank is a fully licensed digital banking platform, FDIC-insured up to $250,000.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-icon">?</div>
+            <div>
+              <h3>How do digital cards work?</h3>
+              <p>Digital cards are virtual cards generated instantly for secure online and mobile payments — no physical card needed.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-icon">?</div>
+            <div>
+              <h3>Can I switch plans later?</h3>
+              <p>Absolutely. You can upgrade, downgrade, or cancel your plan at any time with no fees or penalties.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-icon">?</div>
+            <div>
+              <h3>Is my money safe?</h3>
+              <p>Your funds are insured and protected with 256-bit encryption, biometric login, and 24/7 fraud monitoring.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-inner">
+        <h2>Ready to bank smarter?</h2>
+        <p>Join over 2 million people who've already made the switch.</p>
+        <button class="btn btn-primary btn-large">Open Your Free Account →</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <div class="footer-brand">
+        <img src="./digibank-logo-for-header.png" alt="DigiBank" class="footer-logo">
+        <p>Modern banking for modern people.</p>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+
+      <p class="footer-copy">© 2026 DigiBank. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,9 +1,9 @@
 # DigiBank – Landing Page
 
-> A sleek, dark-themed digital banking landing page built with pure HTML & CSS. Designed and enhanced with Claude by Anthropic.
+> A sleek, dark-themed digital banking landing page built with pure HTML & CSS.
 
 ## Stack
-- HTML5 + CSS3 (no frameworks)
+- HTML5 + CSS3
 - Fonts: Playfair Display & DM Sans via Google Fonts
 
 ## Structure
@@ -21,4 +21,4 @@ styles.css   — all styles
 - CTA banner + footer
 
 ## Running
-Open `index.html` in any browser — no build step required.
+Open `index.html`.
